@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário MarTech Coders</title>
+</head>
+<body>
+    <div id="container">
+        <form action="">
+            <fieldset class="card">
+                <p id="titulo">Insira seus Dados</p>
+                <div class="campo">
+                    <input type="text" name="nome" id="nome" maxlength="90" required>
+                    <label for="nome">Nome:</label>
+                </div>
+                <div class="campo">
+                    <input type="text" name="sobrenome" id="sobrenome" maxlength="90" required>
+                    <label for="sobrenome">Sobrenome:</label>
+                </div>
+                <div class="campo">
+                    <input type="text" name="email" id="email" maxlength="100" required>
+                    <label for="email">Email:</label>
+                </div>
+                <div class="checklist">
+                    <p>Sexo:</p>
+                    <input type="radio" name="genero" id="mas" checked>
+                    <label for="mas">Masculino</label>
+                    <br>
+                    <input type="radio" name="genero" id="fem">
+                    <label for="fem">Feminino</label>
+                    <br>
+                    <input type="radio" name="genero" id="outro">
+                    <label for="outro">Outro</label>
+                </div>
+                <br>
+                <div class="checklist">
+                    <p>Setor desejado na empresa:</p>
+                    <input type="checkbox" name="area1" id="area1">
+                    <label for="area1">Tecnologia</label>
+                    <br>
+                    <input type="checkbox" name="area2" id="area2">
+                    <label for="area2">Administração</label>
+                    <br>
+                    <input type="checkbox" name="area3" id="area3">
+                    <label for="area3">Financeiro</label>
+                </div>
+                <br>
+                <div class="fale">
+                    <p>Fale um pouco sobre você:</p>
+                    <textarea name="mensagem" class="mensagem" id="mensagem" cols="30" rows="5" maxlength="100"
+                    ></textarea>
+                </div>
+                <div class="btn">
+                    <input type="submit" class="btn1" value="Enviar">
+                    <input type="reset" class="btn2" value="Limpar">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
